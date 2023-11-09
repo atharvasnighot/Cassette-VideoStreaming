@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube-style Video Player</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="videoStyle.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<a href="home.html"><h1 class="navbar-title"><img src="VideoCassette.png" class="logo">Cassette</h1></a>
+
+<body>
+    <div class="nav-icons">
+        <a href="uploadPage.html" class="nav-icon"><i class="uil uil-cloud-upload"></i></a>
+        <div class="user-profile">
+            
+            <div class="nav-icon"><i class="uil uil-user"></i></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="video-container">
+            <div class="video-player">
+                <video controls id="video-player">
+                    Your browser does not support the video tag.
+                </video>
+                <h2 id="video-title">Video Title</h2>
+                <p id="video-description">Video Description</p>
+            </div>
+            <div class="recommended-videos">
+                <h2>Recommended Videos</h2>
+                <ul id="recommended-videos-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+
+  
+    <script src="videoScript.js"></script>
+</body>
+
+</html>

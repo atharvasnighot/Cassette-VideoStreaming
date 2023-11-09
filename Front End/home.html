@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="homeStyle.css" />
+    <link rel="manifest" href="manifest.json">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+
+  <img src="VideoCassette.png" class="logo">
+  <h1 class="navbar-title">Cassette</h1>
+
+  <body>
+    <div class="nav-icons">
+      <a href="uploadPage.html" class="nav-icon"
+        ><i class="uil uil-cloud-upload"></i
+      ></a>
+      <div class="user-profile">
+        <div class="nav-icon"><i class="uil uil-user"></i></div>
+        <div class="user-dropdown">
+          <span class="user-username"></span>
+          <a href="login.html" class="login-button">Login</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-message">
+      <p>Please log in to upload a video</p>
+      <a href="login.html" class="login-button">Login</a>
+    </div>
+  
+
+    <div class="video-feed">
+      <h1>Suggested for You</h1>
+      <div class="video-list"></div>
+    </div>
+  </body>
+  <script src="homeScript.js"></script>
+  
+</html>
