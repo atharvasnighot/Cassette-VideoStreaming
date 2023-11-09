@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Cassette" />
+        <module name="jwtdemo" />
+        <module name="cassette" />
+        <module name="Back End" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Back End" options="-parameters" />
+      <module name="Cassette" options="-parameters" />
+      <module name="cassette" options="-parameters" />
+      <module name="jwtdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
